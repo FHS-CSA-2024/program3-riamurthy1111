@@ -22,12 +22,13 @@ public class Program3{
         width = myScanner.nextInt();
         
         //Calculate
-        
+        area = length * width;
+        perimeter = length + length + width + width;
         //Output
         System.out.println("The length is: " + length);
         System.out.println("The width is: " + width);
-        System.out.println("The area is: " + length*width);
-        System.out.println("The periemter is: " + 2*length + 2*width);
+        System.out.println("The area is: " + area);
+        System.out.println("The periemter is: " + perimeter);
         
         
     }
@@ -44,6 +45,6 @@ Please enter the width:
 The length is: 11
 The width is: 11
 The area is: 121
-The periemter is: 2222
+The periemter is: 44
 */
 
